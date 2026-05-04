@@ -5,7 +5,6 @@ import com.example.domain.models.NobelPrize
 import com.example.domain.repository.PrizeRepository
 
 class PrizeRepositoryImpl : PrizeRepository {
-    // Наполняем данными вручную, как в требовании №3
     private val prizes = listOf(
         NobelPrize("2023", "physics", listOf(
             Laureate("1", "Pierre Agostini", "experimental methods that generate attosecond pulses"),

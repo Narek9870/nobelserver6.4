@@ -1,7 +1,7 @@
 package com.example.plugins
 
 import io.ktor.server.application.*
-import io.ktor.server.plugins.calllogging.* // Проверь, чтобы тут было ДВЕ буквы 'l' в logging
+import io.ktor.server.plugins.calllogging.*
 import org.slf4j.event.*
 
 fun Application.configureMonitoring() {

@@ -1,6 +1,6 @@
 package com.example.routing
 
-import com.example.data.dto.LaureateDto // Добавь этот импорт
+import com.example.data.dto.LaureateDto
 import com.example.data.dto.toDto
 import com.example.domain.usecase.GetPrizeDetailUseCase
 import com.example.domain.usecase.GetPrizeLaureatesUseCase
